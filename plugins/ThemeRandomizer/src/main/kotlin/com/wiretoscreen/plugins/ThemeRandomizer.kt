@@ -31,7 +31,7 @@ fun randomizeTheme() {
     val plugin = PluginManager.plugins["Themer"]
     
     if (plugin == null){
-        showNotification("ThemeRandomizer", "Themer must be installed for this plugin to work")
+        showNotification("ThemeRandomizer", "Themer plugin is not installed! Click here to install.")
         return
     }
     
